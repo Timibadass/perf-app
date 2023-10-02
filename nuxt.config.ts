@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   }},
   modules: [
     'nuxt-delay-hydration',
+    '@nuxt/image',
   ],
   delayHydration: {
     // enables nuxt-delay-hydration in dev mode for testing
